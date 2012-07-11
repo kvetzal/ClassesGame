@@ -23,15 +23,16 @@ World::~World() {
 void World::user_reaction()
 {
 	if (user_response == "N" || user_response == "North" ||
-		user_response == "north" || user_response == "NORTH")
+		user_response == "north" || user_response == "NORTH" ||
+		user_response == "n")
 	{
 	}
 }
 
 void World::level_1()
 {
-	int CELL_X = 3;
-	int CELL_Y = 1;
-	Cell prison_cell[CELL_X][CELL_Y](level);
+	const int CELL_X = 3;
+	const int CELL_Y = 1;
+	Cell prison_cell[CELL_X][CELL_Y]();
 }
 

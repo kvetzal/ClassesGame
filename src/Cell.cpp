@@ -14,7 +14,6 @@
 
 Cell::Cell()
 {
-
 }
 
 Cell::~Cell() {
