@@ -33,6 +33,7 @@ void World::level_1()
 {
 	const int CELL_X = 3;
 	const int CELL_Y = 1;
-	Cell prison_cell[CELL_X][CELL_Y]();
+	Cell prison_cell[CELL_X][CELL_Y];
+	prison_cell[0][0].monster_chance();
 }
 
