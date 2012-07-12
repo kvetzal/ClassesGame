@@ -7,13 +7,15 @@
 
 #include "Cell.h"
 #include "Monster.h"
-#include "World.h"
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
 
 Cell::Cell()
 {
+	room_content = "";
+	hidden_room_content = "";
+	player_present = false;
 }
 
 Cell::~Cell() {

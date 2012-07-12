@@ -14,7 +14,7 @@ public:
 	int level;
 	World();
 	virtual ~World();
-	void user_reaction();
+	void user_reaction(string user_response);
 	void level_1();
 };
 
